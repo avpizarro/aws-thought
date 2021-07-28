@@ -5,8 +5,7 @@ const fs = require("fs");
 
 // Modify the AWS object that Dynamo.DB will use to connect to the local instance
 AWS.config.update({
-   region: "us-east-2",
-  endpoint: "http://localhost:8000",
+   region: "us-east-2"
 });
 
 // Use the DocumentClient() class to create a dynamodb service object
