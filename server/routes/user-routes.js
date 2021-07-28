@@ -5,8 +5,7 @@ const router = express.Router();
 const AWS = require("aws-sdk");
 // Define the config params for aws
 const awsConfig = {
-    region: "us-east-2",
-    endpoint: "http://localhost:8000",
+    region: "us-east-2"
 };
 // Configure the service interface object
 AWS.config.update(awsConfig);
